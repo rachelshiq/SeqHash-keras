@@ -13,3 +13,5 @@ y_pred_code is the hash codes of sequences.
 y_pred_dist is the pairewise hamming distance of hash codes.
 edit_dist_pairs is the pairewise edit distance of sequences.
 edit_dist_norm is the linear projection (*hash_bits/seq_len) pairewise edit distance.
+
+Note: data_pairs.npy is too large to upload to Github, but can be generated directly by running dataSim.py.
