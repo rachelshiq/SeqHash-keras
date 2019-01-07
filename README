@@ -1,0 +1,5 @@
+1. dataSim.py
+Simulate sequence data. Set sequence length and nums at the beginning of code.
+
+2.SeqHash.py
+Main file of CNN training and testing. Parameters like hash code bits and sequence length can be set at the beginning of the code.
