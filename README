@@ -5,3 +5,11 @@ Simulate sequence data. Set sequence length and nums at the beginning of code.
 
 2.SeqHash.py
 Main file of CNN training and testing. Parameters like hash code bits and sequence length can be set at the beginning of the code.
+
+3.data folder
+Output of dataSim.py are stored in this data file: data_pairs.npy and dist_pairs.npy. 
+Output of SeqHash.py are stored in this data file: edit_dist_pairs.csv, edit_dist_norm.csv,y_pred_code.csv,y_pred_dist.csv.
+y_pred_code is the hash codes of sequences. 
+y_pred_dist is the pairewise hamming distance of hash codes.
+edit_dist_pairs is the pairewise edit distance of sequences.
+edit_dist_norm is the linear projection (*hash_bits/seq_len) pairewise edit distance.
