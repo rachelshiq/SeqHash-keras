@@ -12,7 +12,7 @@ def main():
     var_seq_num = 100
     near_ed_ratio = 0.8
     far_ed_ratio = 0.2
-    magnify = 64
+    magnify = 32
     
     if not os.path.exists("data"):
         os.mkdir("data")
